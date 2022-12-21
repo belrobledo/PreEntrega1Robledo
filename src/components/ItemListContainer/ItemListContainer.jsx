@@ -3,7 +3,7 @@ import "./ItemListContainer.css";
 export default function ItemListContainer(props){
     return (
         <div className="item-list-container">
-            <h1>{props.children}</h1>
+            <h1>{props.greeting}</h1>
         </div>
     );
 }
