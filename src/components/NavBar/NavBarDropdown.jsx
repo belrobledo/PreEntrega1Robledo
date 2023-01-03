@@ -6,9 +6,7 @@ export default function NavBarDropdown () {
             <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Categorias</a>
                 <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href={categories[0]}>{categories[0]}</a></li>
-                    <li><a className="dropdown-item" href={categories[1]}>{categories[1]}</a></li>
-                    <li><a className="dropdown-item" href={categories[2]}>{categories[2]}</a></li>
+                    {categories.map((element) => (<li key={element}><a className="dropdown-item" href={element}>{element}</a></li>))}
                 </ul>
             </li>
         </ul>
