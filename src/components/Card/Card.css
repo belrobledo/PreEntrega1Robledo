@@ -1,5 +1,4 @@
-.card{
-    width: 18rem;
-    min-height: 33rem;
-    max-height: 33rem;
+.img-product{
+    height: 250px;
+    width: auto;
 }

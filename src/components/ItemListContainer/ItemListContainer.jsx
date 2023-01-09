@@ -2,13 +2,13 @@ import Card from "../Card/Card";
 import "./ItemListContainer.css";
 
 export default function ItemListContainer(props){
-    const productList = [{
+    const productList = [ {
       "id": 1,
       "name": "Mouse de juego Logitech G Series Lightsync G203 blanco",
       "price": 6999,
       "category": "Mouses y Pads",
       "stock": 24,
-      "imgurl": "/imgs/products/product1.webp",
+      "imgurl": "/imgs/products/product1.jpg",
       "detail": "Blanco - Utiliza cable - Resolucion 8000dpi"
     }, {
       "id": 2,
@@ -16,7 +16,7 @@ export default function ItemListContainer(props){
       "price": 6999,
       "category": "Mouses y Pads",
       "stock": 183,
-      "imgurl": "/imgs/products/product2.webp",
+      "imgurl": "/imgs/products/product2.jpg",
       "detail": "Blanco - Utiliza cable - Resolucion 8000dpi"
     }, {
       "id": 3,
@@ -24,7 +24,7 @@ export default function ItemListContainer(props){
       "price": 14599,
       "category": "Teclados",
       "stock": 4,
-      "imgurl": "/imgs/products/product3.webp",
+      "imgurl": "/imgs/products/product3.jpg",
       "detail": "Negro - Inalambrico - QWERTY"
     }, {
       "id": 4,
@@ -32,7 +32,7 @@ export default function ItemListContainer(props){
       "price": 10499,
       "category": "Mouses y Pads",
       "stock": 5,
-      "imgurl": "/imgs/products/product4.webp",
+      "imgurl": "/imgs/products/product4.jpg",
       "detail": "Es inalámbrico (Bluetooth) - Tipo de alimentación inalámbrica: pilas - Resolución de 4000dpi"
     }, {
       "id": 5,
@@ -40,7 +40,7 @@ export default function ItemListContainer(props){
       "price": 13199,
       "category": "Teclados",
       "stock": 8,
-      "imgurl": "/imgs/products/product5.webp",
+      "imgurl": "/imgs/products/product5.jpg",
       "detail": "Blanco y rosa - Mecanico - Resistente a salpicaduras"
     }, {
       "id": 6,
@@ -48,7 +48,7 @@ export default function ItemListContainer(props){
       "price": 6799,
       "category": "Mouses y Pads",
       "stock": 55,
-      "imgurl": "/imgs/products/product6.webp",
+      "imgurl": "/imgs/products/product6.jpg",
       "detail": "Tamaño del mouse pad: L - Color: negro - Es antideslizante - Tiene 450mm de largo y su ancho es de 400mm - Su grosor es de 3mm."
     }, {
       "id": 7,
@@ -56,7 +56,7 @@ export default function ItemListContainer(props){
       "price": 1999,
       "category": "Mouses y Pads",
       "stock": 27,
-      "imgurl": "/imgs/products/product7.webp",
+      "imgurl": "/imgs/products/product7.jpg",
       "detail": "Tamaño del mouse pad: M - Color: rosa pálido - Es antideslizante - Tiene 230mm de largo y su ancho es de 200mm - Su grosor es de 2mm."
     }, {
       "id": 8,
@@ -64,7 +64,7 @@ export default function ItemListContainer(props){
       "price": 1999,
       "category": "Mouses y Pads",
       "stock": 13,
-      "imgurl": "/imgs/products/product8.webp",
+      "imgurl": "/imgs/products/product8.jpg",
       "detail": "Tamaño del mouse pad: M - Color: negro - Es antideslizante - Tiene 230mm de largo y su ancho es de 200mm - Su grosor es de 2mm."
     }, {
       "id": 9,
@@ -72,7 +72,7 @@ export default function ItemListContainer(props){
       "price": 34999,
       "category": "Auriculares",
       "stock": 57,
-      "imgurl": "/imgs/products/product9.webp",
+      "imgurl": "/imgs/products/product9.jpg",
       "detail": "Alcance inalámbrico de 20 m - La batería dura 30 h - Con cancelación de ruido - Micrófono flexible incorporado."
     }, {
       "id": 10,
@@ -80,7 +80,7 @@ export default function ItemListContainer(props){
       "price": 24199,
       "category": "Auriculares",
       "stock": 12,
-      "imgurl": "/imgs/products/product10.webp",
+      "imgurl": "/imgs/products/product10.jpg",
       "detail": "Alcance inalámbrico de 10 m - La batería dura 18 h - Modo manos libres incluido - Con micrófono incorporado."
     }, {
       "id": 11,
@@ -88,7 +88,7 @@ export default function ItemListContainer(props){
       "price": 21999,
       "category": "Auriculares",
       "stock": 4,
-      "imgurl": "/imgs/products/product11.webp",
+      "imgurl": "/imgs/products/product11.jpg",
       "detail": "Alcance inalámbrico de 10 m - La batería dura 18 h - Modo manos libres incluido - Con micrófono incorporado."
     }, {
       "id": 12,
@@ -96,7 +96,7 @@ export default function ItemListContainer(props){
       "price": 14499,
       "category": "Microfonos",
       "stock": 3,
-      "imgurl": "/imgs/products/product12.webp",
+      "imgurl": "/imgs/products/product12.jpg",
       "detail": "Recomendado para streaming, juegos, grabaciones - Formato: de mesa - Dispositivos compatibles: playstation, mac, pc - Conector/es de salida: usb-c."
     }, {
       "id": 13,
@@ -104,7 +104,7 @@ export default function ItemListContainer(props){
       "price": 11900,
       "category": "Mouses y Pads",
       "stock": 13,
-      "imgurl": "/imgs/products/product13.webp",
+      "imgurl": "/imgs/products/product13.jpg",
       "detail": "Es inalámbrico - Conectividad: receptor usb - Tipo de alimentación inalámbrica: pilas - Con sensor óptico - Resolución de 12000dpi."
     }, {
       "id": 14,
@@ -112,7 +112,7 @@ export default function ItemListContainer(props){
       "price": 22500,
       "category": "Microfonos",
       "stock": 5,
-      "imgurl": "/imgs/products/product14.webp",
+      "imgurl": "/imgs/products/product14.jpg",
       "detail": "Recomendado para streaming, grabaciones, transmisión, videollamadas, voces - Formato: de mesa - Dispositivos compatibles: pc - Conector/es de salida: usb."
     }, {
       "id": 15,
@@ -120,7 +120,7 @@ export default function ItemListContainer(props){
       "price": 22500,
       "category": "Microfonos",
       "stock": 7,
-      "imgurl": "/imgs/products/product15.webp",
+      "imgurl": "/imgs/products/product15.jpg",
       "detail": "Recomendado para streaming, grabaciones, transmisión, videollamadas, voces - Formato: de mesa - Dispositivos compatibles: pc - Conector/es de salida: usb."
     }, {
       "id": 16,
@@ -128,7 +128,7 @@ export default function ItemListContainer(props){
       "price": 14999,
       "category": "Auriculares",
       "stock": 14,
-      "imgurl": "/imgs/products/product16.webp",
+      "imgurl": "/imgs/products/product16.jpg",
       "detail": "Con cancelación de ruido - Micrófono flexible incorporado - El largo del cable es de 1.1 m."
     }, {
       "id": 17,
@@ -136,7 +136,7 @@ export default function ItemListContainer(props){
       "price": 6899,
       "category": "Auriculares",
       "stock": 8,
-      "imgurl": "/imgs/products/product17.webp",
+      "imgurl": "/imgs/products/product17.jpg",
       "detail": "Con micrófono incorporado - El largo del cable es de 2 m - Sonido superior y sin límites."
     }, {
       "id": 18,
@@ -144,7 +144,7 @@ export default function ItemListContainer(props){
       "price": 12499,
       "category": "Mouses y Pads",
       "stock": 20,
-      "imgurl": "/imgs/products/product18.webp",
+      "imgurl": "/imgs/products/product18.jpg",
       "detail": "Es inalámbrico - Conectividad: receptor usb - Tipo de alimentación inalámbrica: pilas - Con sensor óptico - Resolución de 12000dpi."
     }, {
       "id": 19,
@@ -152,7 +152,7 @@ export default function ItemListContainer(props){
       "price": 8149,
       "category": "Mouses y Pads",
       "stock": 4,
-      "imgurl": "/imgs/products/product19.webp",
+      "imgurl": "/imgs/products/product19.jpg",
       "detail": "Conectividad: cable - Posee rueda de desplazamiento - Con luces para mejorar la experiencia de uso - Resolución de 16000dpi."
     }, {
       "id": 20,
@@ -160,7 +160,7 @@ export default function ItemListContainer(props){
       "price": 8100,
       "category": "Mouses y Pads",
       "stock": 14,
-      "imgurl": "/imgs/products/product20.webp",
+      "imgurl": "/imgs/products/product20.jpg",
       "detail": "Tipo de mouse: De juego - Tipo de sensor: Óptico - Resolución del sensor: 8500 dpi"
     }, {
       "id": 21,
@@ -168,7 +168,7 @@ export default function ItemListContainer(props){
       "price": 50799,
       "category": "Teclados",
       "stock": 4,
-      "imgurl": "/imgs/products/product21.webp",
+      "imgurl": "/imgs/products/product21.jpg",
       "detail": "Tiene reposa muñeca - Función antighosting incorporada - Tipo de teclado: opto-mecánico - Medidas: 140mm de ancho, 362mm de alto y 37mm de profundidad."
     }, {
       "id": 22,
@@ -176,7 +176,7 @@ export default function ItemListContainer(props){
       "price": 40900,
       "category": "Teclados",
       "stock": 8,
-      "imgurl": "/imgs/products/product22.webp",
+      "imgurl": "/imgs/products/product22.jpg",
       "detail": "Resiste a salpicaduras - Función antighosting incorporada - Tipo de teclado: opto-mecánico - Tecla cilíndrica."
     }, {
       "id": 23,
@@ -184,7 +184,7 @@ export default function ItemListContainer(props){
       "price": 14885,
       "category": "Mouses y Pads",
       "stock": 3,
-      "imgurl": "/imgs/products/product23.webp",
+      "imgurl": "/imgs/products/product23.jpg",
       "detail": "Tamaño del mouse pad: XL Extended - Color: gray - Es antideslizante - Tiene 930mm de largo y su ancho es de 400mm - Su grosor es de 5mm."
     }, {
       "id": 24,
@@ -192,7 +192,7 @@ export default function ItemListContainer(props){
       "price": 12999,
       "category": "Mouses y Pads",
       "stock": 3,
-      "imgurl": "/imgs/products/product24.webp",
+      "imgurl": "/imgs/products/product24.jpg",
       "detail": "Tamaño del mouse pad: XXL - Color: gris - Es antideslizante - Tiene 410mm de largo y su ancho es de 940mm."
     }, {
       "id": 25,
@@ -200,7 +200,7 @@ export default function ItemListContainer(props){
       "price": 55999,
       "category": "Microfonos",
       "stock": 6,
-      "imgurl": "/imgs/products/product25.webp",
+      "imgurl": "/imgs/products/product25.jpg",
       "detail": "Tipos de micrófono: Condensador - Patrones polares: Omnidireccional,Estéreo,Bidireccional,Cardioide - Es inalámbrico: No"
     }, {
       "id": 26,
@@ -208,7 +208,7 @@ export default function ItemListContainer(props){
       "price": 16499,
       "category": "Microfonos",
       "stock": 4,
-      "imgurl": "/imgs/products/product26.webp",
+      "imgurl": "/imgs/products/product26.jpg",
       "detail": "Tipos de micrófono: Condensador - Patrones polares: Cardioide - Es inalámbrico: No"
     }, {
       "id": 27,
@@ -216,7 +216,7 @@ export default function ItemListContainer(props){
       "price": 23999,
       "category": "Teclados",
       "stock": 6,
-      "imgurl": "/imgs/products/product27.webp",
+      "imgurl": "/imgs/products/product27.jpg",
       "detail": "Consolas compatibles: ps4, ps5, xbox series xis y xbox one - Función antighosting incorporada - Tipo de teclado: mecánico - Medidas: 296mm de ancho, 105.5mm de alto y 36.9mm de profundidad."
     }, {
       "id": 28,
@@ -224,7 +224,7 @@ export default function ItemListContainer(props){
       "price": 13599,
       "category": "Teclados",
       "stock": 12,
-      "imgurl": "/imgs/products/product28.webp",
+      "imgurl": "/imgs/products/product28.jpg",
       "detail": "Ergonómico y apto para diversos usos - Tipo de teclado: semi-mecánico."
     }, {
       "id": 29,
@@ -232,7 +232,7 @@ export default function ItemListContainer(props){
       "price": 7899,
       "category": "Mouses y Pads",
       "stock": 3,
-      "imgurl": "/imgs/products/product29.webp",
+      "imgurl": "/imgs/products/product29.jpg",
       "detail": "Tamaño del mouse pad: L - Color: negro y azul - Es antideslizante - Tiene 460mm de largo y su ancho es de 400mm - Su grosor es de 3mm."
     }, {
       "id": 30,
@@ -240,14 +240,14 @@ export default function ItemListContainer(props){
       "price": 33999,
       "category": "Auriculares",
       "stock": 7,
-      "imgurl": "/imgs/products/product30.webp",
+      "imgurl": "/imgs/products/product30.jpg",
       "detail": "Es inalámbrico: Sí - Duración de la batería: 25 h - Con cancelación de ruido: Sí - Con micrófono: Sí."
-    }]
+    } ]
 
     return (
         <div className="item-list-container">
             <h1>{props.greeting}</h1>
-            <div>
+            <div className="container">
               {productList.map((product) => <Card key={product.id} product={product}/>)}
             </div>
         </div>

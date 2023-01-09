@@ -1,0 +1,26 @@
+// PROYECTO FINAL "Gaming Shop" - ROBLEDO, BELEN
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css);
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,400,700);
+$headings-font-family:Nunito;
+
+$primary: #ff69c1;
+$secondary:#AAAAAA;
+$success:#219935;
+$danger:#dc3545;
+$info:#0dcaf0;
+$warning:#ffc107;
+$light:#f8f9fa;
+$dark:#212529;
+$enable-gradients:false;
+$spacer:1rem;
+$border-width:1px;
+
+//--------------------------------------------------------------------------------------------------------------
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+//--------------------------------------------------------------------------------------------------------------
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"

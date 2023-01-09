@@ -1,8 +1,7 @@
 export default function NavBarLogo(){
     return(
-        <a className="navbar-brand" href="index.html">
-            <img src="/imgs/logo.png" width="36px" height="36px" className="me-2" alt="logo" />
-            Gaming Shop
+        <a className="navbar-brand ms-4" href="index.html">
+            <img src="/imgs/logo.png" width="auto" height="36px" className="me-2" alt="logo" />
         </a>
     );
 }
